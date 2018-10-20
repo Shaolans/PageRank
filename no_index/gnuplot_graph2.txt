@@ -1,0 +1,6 @@
+plot "graph2.txt" using 1:2 lt rgb "blue"
+set logscale xy
+set term png
+set output "graph2.png"
+set title "x PageRank with alpha = 0.15 y = out-degree"
+replot

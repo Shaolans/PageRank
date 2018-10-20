@@ -1,0 +1,6 @@
+plot "graph4.txt" using 1:2 lt rgb "blue"
+set logscale xy
+set term png
+set output "graph4_reindex.png"
+set title "x PageRank with alpha = 0.15 y PageRank with alpha = 0.2 with reindex"
+replot
